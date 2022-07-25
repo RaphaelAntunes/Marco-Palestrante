@@ -1,0 +1,618 @@
+html {
+    scroll-behavior: smooth;
+}
+
+. @font-face {
+    font-family: COCOGOOSE;
+    src: url(../font/Cocogoose.ttf);
+}
+
+@font-face {
+    font-family: cocogoose-light;
+    src: url(../font/Cocogoose-light.ttf);
+}
+
+*,
+h1,
+h2,
+h3,
+p {
+    text-decoration: none;
+    font-weight: 100;
+    font-family: COCOGOOSE;
+    margin: 0;
+    padding: 0;
+    border: none;
+    word-wrap: break-word;
+}
+
+.navbar {
+    height: 80px;
+    background-color: #051243;
+}
+
+.linkutm {
+    margin-right: 100px;
+}
+
+.navbar-brand {
+    margin-left: 100px;
+}
+
+.btn-link,
+.navbar-brand {
+    font-weight: 500;
+    color: white !important;
+}
+
+.Principal {
+    color: white;
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.principal h1 {
+    font-size: 48;
+}
+
+.principal h2 {
+    font-weight: 500;
+    font-size: 21;
+    color: #FFA200;
+    border-bottom: 1px solid white;
+    max-width: 478px;
+}
+
+.principal p {
+    font-weight: 500;
+    font-size: 21;
+    color: white;
+    font-family: Cocogoose-light;
+    margin-top: 8px;
+}
+
+.principal span {
+    font-weight: 500;
+    font-size: 21;
+    color: #FFA200;
+    font-family: Cocogoose-light;
+}
+
+.principal img {
+    margin-top: 90px;
+    min-width: 350px;
+    width: 100%;
+}
+
+.principal button {
+    font-weight: 500;
+    padding: 20px;
+    color: #051243;
+    min-width: 187px;
+    min-height: 53px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 18;
+}
+
+.aviso {
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+.aviso h1 {
+    font-size: 28;
+    font-family: Cocogoose-light;
+}
+
+.aviso span {
+    color: #FFA200;
+    font-family: Cocogoose-light;
+}
+
+.sobre {
+    padding: 50px;
+    color: white;
+    background-image: url("../img/car5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sobre p {
+    color: #FFA200;
+    font-family: Cocogoose;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.sobre h1 {
+    font-family: Cocogoose;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 51px;
+}
+
+.sobre h3 {
+    font-family: Cocogoose;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.sobre img {
+    min-width: 320px;
+    width: 100%;
+}
+
+.cards {
+    padding: 80px;
+    color: black;
+    background-image: url("../img/banner3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardx:nth-child(2) {
+    margin: 0 50px;
+}
+
+.cardx h1 {
+    margin-top: 10px;
+    font-family: Cocogoose;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.cardx p {
+    margin-top: 10px;
+    font-family: Cocogoose-light;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.cards img {
+    max-width: 140px;
+}
+
+.cardx {
+    background: #FFA200;
+    box-shadow: 8px 4px 23px rgba(0, 0, 0, 0.49);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 350px;
+    min-height: 410px;
+    padding: 25px;
+    text-align: center;
+}
+
+.artigos {
+    padding: 50px;
+    background: #f2f2f2;
+}
+
+.artigocard {
+    min-height: 400px;
+    max-width: 318px;
+}
+
+.header img {
+    max-width: 318px;
+    border-radius: 20px 20px 0 0;
+}
+
+.content {
+    padding: 15px;
+}
+
+.date h1 {
+    color: #6E798C;
+    font-size: 14;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+.date p {
+    color: #6E798C;
+    font-size: 14;
+    font-family: 'Open Sans';
+}
+
+.title p {
+    font-size: 20px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.info p {
+    font-size: 13;
+    font-family: 'Open Sans';
+}
+
+.more p {
+    font-size: 13;
+    color: #007AE9;
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
+.palestra {
+    padding: 80px;
+    color: black;
+    background-image: url("../img/banner4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.palestra h1 {
+    font-family: Cocogoose;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: white;
+}
+
+.palestra h5 {
+    margin-bottom: 50px;
+    font-family: Cocogoose;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 34px;
+    text-align: center;
+    color: white;
+}
+
+.boxpalestra {
+    width: 100%;
+    min-height: 502px;
+    max-height: 100%;
+    padding: 50px 70px;
+    background: #051243;
+    box-shadow: 10px 11px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.boxpalestra li {
+    font-family: Cocogoose-light;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.definicao {
+    background: #f2f2f2;
+    padding: 50px;
+}
+
+.definicao span {
+    border-bottom: 3px solid #FFA200;
+    font-family: Cocogoose;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 51px;
+    color: #FFA200;
+}
+
+.definicao h1 {
+    font-family: Cocogoose;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 51px;
+}
+
+.definicao d {
+    font-family: 'Candal', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 51px;
+    color: #FFA200;
+}
+
+.definicaotext h1 {
+    margin-right: 20px;
+    font-size: 72px;
+    color: #051243;
+    font-family: 'Candal', sans-serif;
+}
+
+.definicaotext h2 {
+    font-family: Cocogoose;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 43px;
+}
+
+.definicaotext {
+    width: 100%;
+    max-width: 718px;
+}
+
+.definicaotext p {
+    min-width: 718px;
+    font-family: Cocogoose-light;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    border-bottom: 3px solid #FFA200;
+}
+
+.depoimentos {
+    color: black;
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+
+.depoimentostxt p,
+.depoimentostxxt p {
+    max-width: 543px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: Cocogoose-light;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.depoimentostxt h1,
+.depoimentostxxt h1 {
+    margin-bottom: 15px;
+    font-family: Cocogoose;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.contato {
+    padding: 50px;
+    color: black;
+}
+
+.contato button {
+    margin-top: 50px;
+    font-family: Cocogoose;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FFFFFF;
+    width: 134px;
+    height: 56px;
+    background: #051243;
+    border-radius: 10px;
+}
+
+.contatoinfo {
+    width: 100%;
+    margin-top: 50px;
+    font-family: Cocogoose-light;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+.contatoinfo span {
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.inputimg {
+    margin-top: 150px;
+}
+
+.inputimg img {
+    width: 100%;
+    min-width: 435px;
+    filter: drop-shadow(-18px 15px 23px rgba(0, 0, 0, 0.25));
+    border-radius: 25px;
+}
+
+.inputs {}
+
+.inputs h1 {
+    max-width: 430px;
+    margin-bottom: 96px;
+    font-family: Cocogoose-light;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+
+.inputform {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputform input {
+    padding: 20px;
+    font-family: 'Open Sans';
+    font-size: 18;
+    max-width: 425px;
+    width: 100%;
+    height: 68px;
+    background: #F2F2F2;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 9px 9px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.inputtextarea textarea {
+    padding: 20px;
+    font-family: 'Open Sans';
+    font-size: 18;
+    width: 100%;
+    height: 165px;
+    background: #F2F2F2;
+    border: 1px solid #000000;
+    box-shadow: 9px 9px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.inputtextarea {
+    justify-content: center;
+}
+
+.inputform label,
+.inputtextarea label {
+    text-align: start;
+    font-family: Cocogoose-light;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.inputform span,
+.inputtextarea span {
+    color: red;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background: #051243;
+}
+
+.footer h1 {
+    font-family: 'Open Sans';
+    font-size: 18;
+    color: white;
+}
+
+@media (max-width:992px) {
+    .principal img {
+        margin-bottom: 30px;
+        min-width: 100%;
+    }
+    .principal button {
+        margin-bottom: 40px;
+    }
+    .aviso {
+        text-align: center;
+    }
+    .sobre img {
+        margin-bottom: 30px;
+        min-width: 100%;
+    }
+    .cardx:nth-child(2) {
+        margin: 25px 0!important;
+    }
+    .boxpalestra {
+        padding: 50px 70px !important;
+    }
+    .definicaotext h1 {
+        margin-bottom: 50px;
+    }
+    .definicaotext {
+        text-align: center;
+    }
+    .inputimg img {
+        min-width: 0 !important;
+    }
+    .inputs h1 {
+        margin-top: 40px;
+        max-width: 100% !important;
+    }
+    .inputform,
+    .inputtextarea {
+        justify-content: center;
+        align-items: center;
+    }
+    li {
+        list-style-type: none;
+        text-align: center;
+        padding: 10 0;
+    }
+    .definicaotext p {
+        min-width: 100% !important;
+    }
+    .cartext h1,
+    .cartext p {
+        text-align: center !important;
+    }
+    .linkutm {
+        margin-right: 0;
+    }
+}
+
+.carbanner {
+    padding: 80px;
+    color: black;
+    background-image: url("../img/banner3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.complement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #051243;
+    color: white;
+}
+
+.cartext h1 {
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+.cartext p {
+    text-align: start;
+    font-family: Cocogoose-light;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.carimg img {
+    filter: drop-shadow(27px 37px 28px rgba(0, 0, 0, 0.25));
+    border-radius: 24px;
+    margin-right: 40px;
+    width: 300px;
+    height: 400px;
+}
+
+.cardx span,
+.cartext span {
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
